@@ -1,4 +1,3 @@
-/*
 data "aws_ami" "app_ami" {
   most_recent = true
 
@@ -66,4 +65,3 @@ cidr_blocks      = ["0.0.0.0/0"]
 
 security_group_id = aws_security_group.blog.id
 }
-*/
